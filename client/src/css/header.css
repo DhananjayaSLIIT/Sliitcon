@@ -1,0 +1,65 @@
+#header{
+    background: white;
+}
+
+.header-center img{
+    display:inline-block;
+}
+
+.header-upper{
+    height: 40px;
+    background-color: #000;
+}
+
+.img-header{
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+.header-center .btn-header{
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 6px 20px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: -30px;
+    
+}
+
+.header-center .btn-header:hover{
+    
+      background: peru;
+  }
+.btn-header a{
+    color: azure;
+    text-decoration: none;
+}
+
+
+.btn-logout{
+    margin-right: 4%;
+    margin-bottom: 2%;
+    margin-left: 0%;
+    margin-top: -3%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0.5em;
+    text-align: center;
+    width: 7%;
+    height: 5%;
+    float: right;
+    border-color: black;
+    
+}
+
+.btn-logout a{
+    color: azure;
+}
+

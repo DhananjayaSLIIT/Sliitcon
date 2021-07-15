@@ -1,0 +1,187 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body{
+    background-color:lavender;
+    width: 100%;
+    height: 150%;
+    margin-top: 0;
+} 
+
+
+
+.register-container{
+    max-width: 700px;
+    margin: auto;
+    border-color: black;
+    border-radius: 1em;
+}
+
+#register{
+    margin-top: 1em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.read-details{
+    max-width: max-content;
+    margin: auto;
+    padding:30px 30px;
+    margin-top:2%;
+    margin-bottom:20px;
+    -webkit-box-shadow: -5px 2px 62px 8px rgba(248, 150, 150, 0.25);
+    -moz-box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.25);
+    box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.25);
+    height: auto;
+    background-color: #fff;
+}
+
+.text-center{
+    text-align: center;
+}
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bolder;
+}
+
+
+
+@media only screen and (max-width:1024px) {
+    table, thead, tbody, th, td, tr{
+        display: block;
+    }
+
+    thead tr{
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    
+    tr{ 
+        border: 1px solid var(--border);
+    }
+    
+    td{
+        border: none;
+        position: relative;
+    }
+
+}
+
+
+.column-pop {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+  }
+  
+  .row-pop:after {
+    content: "";
+    display: table;
+    clear: both;
+    border-radius: 5px;
+    -webkit-box-shadow: -5px 2px 62px 8px rgba(248, 150, 150, 0.5);
+    -moz-box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.5);
+    box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.5);
+  }
+
+  .pop-container{
+    max-width: 700px;
+    margin: auto;
+    border-color: black;
+    border-radius: 1em;
+}
+
+.column-login {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 400px; /* Should be removed. Only for demonstration */
+  }
+  
+  .row-login:after {
+    content: "";
+    display: table;
+    clear: both;
+    border-radius: 5px;
+    -webkit-box-shadow: -5px 2px 62px 8px rgba(248, 150, 150, 0.5);
+    -moz-box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.5);
+    box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.5);
+  }
+
+.login-container{
+    width: 60%;
+    margin: auto;
+    border-color: black;
+    border-radius: 1em;
+}
+
+/* Reset Password */
+
+
+.column-resetpassword {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 400px; /* Should be removed. Only for demonstration */
+  }
+  
+  .row-resetpassword:after {
+    content: "";
+    display: table;
+    clear: both;
+    border-radius: 5px;
+    -webkit-box-shadow: -5px 2px 62px 8px rgba(248, 150, 150, 0.5);
+    -moz-box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.5);
+    box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.5);
+  }
+
+/* Forgot Password */
+
+.column-forgotpassword {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 400px; /* Should be removed. Only for demonstration */
+  }
+  
+  .row-forgotpassword:after {
+    content: "";
+    display: table;
+    clear: both;
+    border-radius: 5px;
+    -webkit-box-shadow: -5px 2px 62px 8px rgba(248, 150, 150, 0.5);
+    -moz-box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.5);
+    box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.5);
+  }
+
+
+
+
+/* Registration */
+
+.registration-container{
+    width: 80%;
+    margin: auto;
+    border-color: black;
+    border-radius: 1em;
+}
+
+
+.column-register {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 600px; /* Should be removed. Only for demonstration */
+  }
+  
+  .row-register:after {
+    content: "";
+    display: table;
+    clear: both;
+    border-radius: 5px;
+    -webkit-box-shadow: -5px 2px 62px 8px rgba(248, 150, 150, 0.5);
+    -moz-box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.5);
+    box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.5);
+  }
